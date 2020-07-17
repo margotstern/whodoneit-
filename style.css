@@ -1,0 +1,564 @@
+/* global*/
+*{
+  margin:0;
+  padding:0;
+  border:0;
+ 
+
+}
+@-ms-viewport {
+  width: device-width ;
+}
+html{
+ font-family: 'Poppins';
+}
+@media (max-width: 600px) {
+  .nav {
+    width: 50%;
+  }
+}
+body{
+  background-color:#e6e5e5;
+
+}
+
+hr{
+  display: block;
+  margin-top: 170px;
+  margin-bottom: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width:85%
+}
+/* nav*/
+
+
+nav{
+  line-height:77px;
+  text-align: right;
+  width: 90%
+  
+ 
+  
+}
+
+nav a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px;
+  position: relative;
+  flex-basis: 100%;
+}
+
+a.navcolor:active, a.navcolor:hover{
+color:#a39c59;
+
+}
+
+/*header*/
+header{
+  height:500px;
+  padding: 0.5%;
+  margin-bottom:250px;
+  
+}
+
+header h1{
+  color:#2b2815;
+  width: 40%;
+  margin: 40px;
+  font-size: 60px;
+  font-weight: bolder;
+  word-spacing: 5px;
+}
+header h3{
+  color:#813816;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  font-size: 23px;
+  margin: 0px;
+  margin-bottom:100px;
+
+}
+/* christy's art*/
+
+.logos{
+  margin-right: 300px;
+}
+
+#yellowstripe{
+width:300px;
+height: 315px;
+z-index: -1;
+float:right;
+position: absolute;
+left:900px;
+top: 630px;
+}
+
+#greenovals{
+width:300px;
+height: 315px;
+z-index: -1;
+float:right;
+position: absolute;
+left:800px;
+top: 1250px;
+}
+
+#google{
+  width:70px;
+  height:75px;
+  position: absolute;
+ top: 500px;
+ left: 150px;
+margin-left:30px;
+}
+
+#apple{
+  width:70px;
+  height:75px;
+  float:left;
+margin-left:30px;
+   z-index: -1;
+   position: absolute;
+ top: 500px;
+ left:250px;
+}
+
+#walmart{
+    width:70px;
+  height:75px;
+
+margin-left:30px;
+ position: absolute;
+ top: 500px;
+ left: 350px;
+  z-index: -1;
+}
+
+#nintendo{
+  width:70px;
+  height:75px;
+margin-left:30px;
+ position: absolute;
+ top: 500px;
+ left: 450px;
+  z-index: -1;
+}
+
+
+#wendys{
+    width:70px;
+  height:75px;
+margin-left:30px;
+ position: absolute;
+ top: 500px;
+left: 550px;
+  z-index: -1;
+}
+#pepsi{
+  width:70px;
+  height:75px;
+margin-left:30px;
+ position: absolute;
+ top: 500px;
+ left: 650px;
+  z-index: -1;
+}
+
+
+#wf{
+  width:70px;
+  height:75px;
+ margin-left:30px;
+  
+   z-index: -1;
+   position: absolute;
+ top: 500px;
+ left: 750px;
+}
+
+#mcdonalds{
+  width:70px;
+  height:75px;
+margin-left:30px;
+ position: absolute;
+ top: 500px;
+left: 850px;
+  z-index: -1;
+}
+
+#starbucks{
+  width:70px;
+  height:75px;
+ margin-left:30px;
+ position: absolute;
+ top: 500px;
+ left:950px;
+ 
+  z-index: -1;
+}
+
+
+#microsoft{
+    width:70px;
+  height:75px;
+margin-left:30px;
+ position: absolute;
+ top: 500px;
+ left: 1050px;
+  z-index: -1;
+}
+
+#amazon{ 
+width:70px;
+height:75px;
+margin-left:30px;
+ z-index: -1;
+ position: absolute;
+ top: 500px;
+ left:1150px;
+}
+
+
+
+.computer{
+  width: 300px;
+  height:400px;
+  float:left;
+  position:absolute;
+  z-index: -1;
+  top:4000px;
+}
+
+
+
+#pinksquiggle{
+width:300px;
+height: 315px;
+z-index: -1;
+float:right;
+position: absolute;
+left:370px;
+top: 3100px;
+}
+
+#bluesnakes{
+width:300px;
+height: 315px;
+z-index: -1;
+float:right;
+position: absolute;
+left:800px;
+top: 2000px;
+}
+
+#seaweed{
+width:300px;
+height: 315px;
+z-index: -1;
+float:right;
+position: absolute;
+left:900px;
+top: 3800px;
+}
+
+/*about*/
+
+#about{
+margin-left:100px;
+line-height: 1.3em;
+letter-spacing: 1px;
+font-weight: bolder;
+font-size: 45px;
+line-height: 1.8em;
+letter-spacing: .02em;
+text-transform: none;
+position: relative;
+}
+
+#thirteenth{
+letter-spacing: 0px;
+line-height: 1.6em;
+font-weight: 400;
+font-style: normal;
+font-size: 23px;
+letter-spacing: .03em;
+line-height: 1.1em;
+color:#813816;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 100px;
+margin-left: 100px;
+width: 800px;
+letter-spacing:1px;
+word-spacing:7px;
+position: relative;
+
+}
+
+#so{
+  color:black;
+  margin-left:100px;
+  margin-bottom:40px;
+  margin-top:30px;
+  font-size: 30px;
+  word-spacing:15px;
+  letter-spacing:2px;
+  font-weight:bolder;
+  position: relative;
+}
+
+
+/* quick stats*/
+#stats{
+margin:100px;
+margin-top: 30px;
+margin-bottom:15px;
+margin-left:100px;
+line-height: 1.3em;
+letter-spacing: 1px;
+font-weight: bolder;
+font-size: 45px;
+line-height: 1.8em;
+letter-spacing: .02em;
+text-transform: none;
+}
+
+.statistic{
+  color:#813816;
+  font-size:23px;
+}
+
+.label{
+  font-size:30px;
+}
+
+.amntpeople{
+  text-align:left;
+  margin-left: 100px;
+  
+}
+
+.rate{
+  text-align: right;
+  margin-right: 100px;
+  
+ 
+}
+
+.breakdown{
+  text-align:left;
+  margin-left: 100px;
+ 
+}
+
+.earnings{
+  text-align:right;
+  margin-left: 640px;
+  margin-right: 600px;
+  width: 400px;
+}
+
+#imprate{
+  width:550px;
+  text-align:right;
+  margin-left:685px;
+}
+/*hi zora i luv u hello<3*/
+
+/*Search*/
+#search{
+  line-height: 1.3em;
+letter-spacing: 1px;
+font-weight: bolder;
+font-size: 45px;
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 47%; /* Full-width */
+  
+  font-size: 12px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+.companies{
+  width: 670px;
+  height: 400px;
+  overflow-y: auto;
+}
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 670px; /* Full-width */
+  border: 1px solid whte; /* Add a grey border */
+  font-size: 14px; /* Increase font-size */
+  background-color:white;
+}
+
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+.doesnt td{
+  text-decoration:none;
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ffffed;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+/*this is where i lost me mind*/
+.doesnt a:link{
+   color:#008037;
+   text-decoration:none;
+}
+
+.doesnt a:visited{
+  color:#008037;
+  text-decoration:none;
+}
+
+.doesnt a:hover{
+  color:blue;
+  text-decoration: underline;
+}
+
+.currently a:link{
+  color:#ff1616;
+  text-decoration: none;
+}
+
+.currently a:visited{
+  color:#ff1616;
+  text-decoration: none;
+}
+
+.currently a:hover{
+  color:blue;
+  text-decoration: underline;
+}
+
+.previously a:link{
+  color:#db8b1e;
+  text-decoration: none;
+}
+
+.previously a:visited{
+  color:#db8b1e;
+  text-decoration: none;
+}
+
+.previously a:hover{
+  color:blue;
+  text-decoration: underline;
+}
+
+/*How to Help*/
+.help h1{
+  margin-left:100px;
+line-height: 1.3em;
+letter-spacing: 1px;
+font-weight: bolder;
+font-size: 45px;
+line-height: 1.8em;
+letter-spacing: .02em;
+text-transform: none;
+}
+
+.help h3{
+  color:black;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  font-size: 23px;
+  margin: 0px;
+  margin-bottom:0px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-weight: bold;
+    
+}
+
+.help p{
+  font-size: 23px;
+  color:#813816;
+  width:560px;
+  margin-left:100px;
+  
+}
+
+.help table{
+  margin-left:100px;
+}
+
+.help a{
+  color:blue;
+}
+
+ .help td{
+   margin-left:100px;
+   margin-right:50px;
+   font-size: 23px;
+  color:#813816;
+  width:400px;
+ }
+
+
+
+
+/*Resources*/
+.resources h1{
+margin-left:100px;
+line-height: 1.3em;
+letter-spacing: 1px;
+font-weight: bolder;
+font-size: 45px;
+line-height: 1.8em;
+letter-spacing: .02em;
+text-transform: none;
+}
+
+.resources p{
+  color:#813816;
+  font-size:23px;
+  margin-left: 100px;
+  margin-top:20px;
+}
+
+.resources p a:visited{
+  color:#813816;
+  text-decoration:none;
+} 
+
+.resources p a:active{
+  color:#813816;
+  text-decoration:none;
+}
+
+.resources p a:link{
+  color:#813816;
+  text-decoration:none;
+}
+
+.resources p a:hover{
+  color:blue;
+  text-decoration:underline;
+}
+
+#computer{
+  float=right;
+}
